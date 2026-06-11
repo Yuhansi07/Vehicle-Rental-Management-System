@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vehicle Rental Management System</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="container">
+    <h1>Vehicle Rental Management System</h1>
+
+    <div class="form-card">
+      <h2>Add Vehicle</h2>
+
+      <input type="text" id="brand" placeholder="Brand" />
+      <input type="text" id="model" placeholder="Model" />
+      <input type="text" id="type" placeholder="Type" />
+      <input type="number" id="dailyRate" placeholder="Daily Rate" />
+
+      <button onclick="addVehicle()">Add Vehicle</button>
+    </div>
+
+    <h2>Available Vehicles</h2>
+
+    <div id="vehicleList" class="vehicle-list"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
